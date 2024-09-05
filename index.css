@@ -67,7 +67,7 @@ form{
     padding: 15px 0px;
 }
 
-input{
+.logininput{
     width: 300px;
     height: 50px;
     margin: 10px 0px;
@@ -130,7 +130,7 @@ hr{
 .signup{
 
     position: absolute;
-    top: 75%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     /* height: 650px; */
@@ -139,6 +139,79 @@ hr{
     box-shadow: 0 2px 4px rgba(0,0,0,0.1), 0 8px 16px rgba(0,0,0,0.1);
     padding-bottom: 15px;
     border-radius: 10px;
+    border: 2px solid black;
+    /* display: none; */
    
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+}
+
+.top>div>h2{
+    font-size: 34px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.top>div>#signpara{
+  color: #606770;
+  line-height: 25px;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 3px;
+}
+
+.top img{
+    padding-bottom: 30px;
+    cursor: pointer;
+    width: 35px;
+}
+
+#signupLine{
+    border: 1px solid #ccc;
+    width: 450px;
+    margin: 15px 0px;
+}
+.signup_body{
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
+
+.same{
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.name{
+    display: flex;
+    gap: 10px;
+    margin: -16px 0;
+    font-size: 15px;
     
+}
+
+.bottom{
+    /* border: 2px solid blue; */
+    margin-top: 22.5px;
+}
+
+.bottom input{
+    height: 35px;
+    width: 95%;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    border-radius: 10px;
 }
