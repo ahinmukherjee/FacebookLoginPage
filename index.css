@@ -22,7 +22,7 @@
     justify-content: center;
     position: absolute;
     top: 50%;
-    display: none;
+    /* display: none; */
 
 }
 
@@ -100,7 +100,7 @@ input[type="submit"]{
 
 }
 
-p{
+#forget_password{
     color: royalblue;
     font-size: 19px;
 }
@@ -139,7 +139,6 @@ hr{
     box-shadow: 0 2px 4px rgba(0,0,0,0.1), 0 8px 16px rgba(0,0,0,0.1);
     padding-bottom: 15px;
     border-radius: 10px;
-    border: 2px solid black;
     /* display: none; */
    
 }
@@ -174,13 +173,14 @@ hr{
 #signupLine{
     border: 1px solid #ccc;
     width: 450px;
-    margin: 15px 0px;
+    margin: 05px 0px;
 }
 .signup_body{
 
     display: flex;
     flex-wrap: wrap;
     padding: 0 15px;
+    margin-top: 10px;
 }
 
 .same{
@@ -215,3 +215,94 @@ hr{
     margin-top: 15px;
     border-radius: 10px;
 }
+
+.birthday{
+    padding: 0 15px;
+    margin-top: 7px;
+}
+
+.birthday p{
+    font-size: 18.5px;
+    font-family: sans-serif;
+}
+
+.birthday select{
+    padding: 7px 35px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid rbga(0,0,0,0.448);
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gender{
+    padding: 0 15px;
+    display: flex;
+    border: 1px solid red;
+    margin-top: 5px;
+    margin-left: -240px;
+}
+
+.gender p{
+    font-size: 18.5px;
+    border: 1px solid blue;
+    font-family: sans-serif;
+}
+
+.gender.person{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    
+}
+
+.gender.person>div{
+    font-size: 15.5px;
+    /* border: 1px solid rbga(0,0,0,0.448); */
+    border: 1px solid black;
+    padding: 6px;
+    display: flex;
+    gap: 15px;
+}
+
+.person>div>label{
+   margin-right: 10px;
+}
+
+.content{
+    padding: 0 15px;
+}
+
+.content p{
+    margin: 10px 0;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+/* .text{
+    font-size: 15px;
+    font-family: sans-serif;
+} */
+
+#btn{
+    height: 36px;
+    width: 200px;
+    background: #42b72a;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20.5px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: -15px;
+    margin-top: 5px;
+}
+
+
